@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+
+a{
+    color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/*Header start*/
+header nav{
+    display: flex;
+    justify-content:space-between;
+    /*birbirinden olabildiğince uzaklaştır*/
+    align-items: center;
+    /* dikeyde aynı hizada*/
+    
+}
+/*Header end*/
+header nav .logo a {
+    color: white;
+    text-emphasis: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: None;
+    /*bu kod listenin başına konan sayacı kaldırır*/
+    display: flex;
+    /*yan yana dizer*/
+    column-gap: 30px;
+}
