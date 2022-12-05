@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url("bg.jpg");
+    background-image: url("bg1.jpg");
     background-size: cover;
 }
 
@@ -22,7 +22,10 @@ a{
     width: 80%;
     margin: auto;
 }
-
+header{
+    height: 100px;
+    border-bottom: 2px solid darkblue;
+}
 /*Header start*/
 header nav{
     display: flex;
@@ -32,7 +35,7 @@ header nav{
     /* dikeyde aynı hizada*/
     
 }
-/*Header end*/
+
 header nav .logo a {
     color: white;
     text-emphasis: none;
@@ -47,3 +50,46 @@ nav ul {
     /*yan yana dizer*/
     column-gap: 30px;
 }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+    
+    
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    transition: color .25s ease;
+}
+nav .menu .menu-button {
+    color: aquamarine;
+   text-decoration: none;
+   background-color: rgb(255, 255, 255,0.08);
+   padding: 8px 24px;
+   border-radius: 56px;
+   /*butonun dikdörtgen olan kenarlarına kavis verir*/
+   transition: color .25s ease;
+}
+nav .menu .menu-button:hover {
+    background-color: darkblue;
+    color: white;
+    
+
+   /*butonun dikdörtgen olan kenarlarına kavis verir*/
+}
+/*Header end*/
+/* responsive start
+@media(max-width:576px){
+    .container{
+        width: 100%;
+        padding-left: 12px;
+        padding-right 12px;
+    }
+    .menu .menu-button{
+        display: none;
+    }
+}
+ responsive end */
