@@ -49,37 +49,83 @@ nav ul {
     display: flex;
     /*yan yana dizer*/
     column-gap: 30px;
+    /*itemlerin arasına boşluk verir*/
 }
 
-nav ul li a {
+nav ul a {
     color: white;
     text-decoration: none;
     transition: color .25s ease;
-    
-    
+}
+
+nav .logo a:hover {
+    color: red;
+
+}
+
+nav ul a:hover{
+    color: red;
 }
 
 nav .menu{
     display: flex;
     align-items: center;
     transition: color .25s ease;
+    column-gap: 48px;
 }
 nav .menu .menu-button {
     color: aquamarine;
-   text-decoration: none;
-   background-color: rgb(255, 255, 255,0.08);
-   padding: 8px 24px;
-   border-radius: 56px;
-   /*butonun dikdörtgen olan kenarlarına kavis verir*/
-   transition: color .25s ease;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255,0.08);
+    padding: 8px 24px;
+    border-radius: 56px;
+    /*butonun dikdörtgen olan kenarlarına kavis verir*/
+    transition: color .25s ease;
 }
 nav .menu .menu-button:hover {
     background-color: darkblue;
     color: white;
-    
-
    /*butonun dikdörtgen olan kenarlarına kavis verir*/
 }
+.menu ul{
+    column-gap: 20px;
+}
+/*içerik*/
+.content{
+    color: azure;
+    height: calc(100vh - 100px);
+    /*scroll lerden kurtulma*/
+    padding: 100px;
+}
+.content h1{
+    font-size: 60px;
+    text-align: center;
+}
+.content p{
+    font-size: 24px;
+    /*text align center*/
+}
+
+section a {
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+    color: brown;
+}
+/*
+.content .links a {
+    background-color: white;
+    padding: 20px;
+    width: 280px;
+    color: black;
+    text-align: center;
+}
+
+/*içerik*/
+
+
 /*Header end*/
 /* responsive start
 @media(max-width:576px){
