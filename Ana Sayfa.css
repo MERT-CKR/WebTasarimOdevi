@@ -1,0 +1,161 @@
+.container1{
+    margin: 15px;
+    margin-top: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url(a.jpg);
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: red;
+}
+.container2{
+    background-image: url(tesla-kimdir-2.jpg);
+    background-repeat: no-repeat;
+    margin: 60px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    color: rgb(255, 0, 0);
+    border-radius: 6px;
+    background-position: 60;
+    background-size: 400px 300px;
+    
+}
+.container2 h1{
+    margin-left: 500px;
+   background-position-y: 20px;
+}
+.container3{
+    background-image: url(maxwel.jpg);
+    background-repeat: no-repeat;
+    margin: 60px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    color: red;
+    border-radius: 6px;
+    border-color: red;
+    border-width: 3%;
+    background-position: 60;
+    background-size: 400px 300px;
+    
+}
+
+.container3 h1{
+    margin-left: 500px;
+}
+
+.container4{
+    background-image: url(faraday.jpg);
+    background-repeat: no-repeat;
+    margin: 60px;
+    background-color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    color: red;
+    border-radius: 6px;
+    border-width: 3%;
+    background-position: 60;
+    background-size: 400px 300px;
+    
+}
+
+.container4 h1{
+    margin-left: 500px;
+}
+
+body{
+background-image: url(f.jpg);
+
+}
+/*navbar*/
+header{
+    height: 100px;
+    border-bottom: 2px solid darkblue;
+}
+/*Header start*/
+header nav{
+    display: flex;
+    justify-content:space-between;
+    /*birbirinden olabildiğince uzaklaştır*/
+    align-items: center;
+    /* dikeyde aynı hizada*/
+    
+}
+
+header nav .Home a {
+    text-decoration: none;
+    color: white;
+    text-emphasis: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header nav .Home a:hover {
+    color: red;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+
+nav ul {
+    list-style: None;
+    /*bu kod listenin başına konan sayacı kaldırır*/
+    display: flex;
+    /*yan yana dizer*/
+    column-gap: 30px;
+    /*itemlerin arasına boşluk verir*/
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+nav .logo a:hover {
+    color: red;
+
+}
+
+nav ul a:hover{
+    color: red;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    transition: color .25s ease;
+    column-gap: 48px;
+    margin: 1px;
+}
+nav .menu .menu-button {
+    color: aquamarine;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255,0.08);
+    padding: 8px 24px;
+    border-radius: 56px;
+    /*butonun dikdörtgen olan kenarlarına kavis verir*/
+    transition: color .25s ease;
+}
+nav .menu .menu-button:hover {
+    background-color: darkblue;
+    color: white;
+   /*butonun dikdörtgen olan kenarlarına kavis verir*/
+}
+.menu ul{
+    column-gap: 20px;
+}
+/*navbar*/
+
+.arkaplanresmi{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
