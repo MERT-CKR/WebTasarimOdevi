@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(science.jpg) ;
+}
+
+/*navbar*/
+header{
+    height: 60px;
+    border-bottom: 2px solid darkblue;
+}
+/*Header start*/
+header nav{
+    display: flex;
+    justify-content:space-between;
+    /*birbirinden olabildiğince uzaklaştır*/
+    align-items: center;
+    /* dikeyde aynı hizada*/
+    
+}
+
+header nav .Home a {
+    text-decoration: none;
+    color: white;
+    text-emphasis: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header nav .Home a:hover {
+    color: red;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+
+nav ul {
+    list-style: None;
+    /*bu kod listenin başına konan sayacı kaldırır*/
+    display: flex;
+    /*yan yana dizer*/
+    column-gap: 30px;
+    /*itemlerin arasına boşluk verir*/
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+nav .logo a:hover {
+    color: red;
+
+}
+
+nav ul a:hover{
+    color: red;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.767);
+}
+nav .menu{
+    display: flex;
+    align-items: center;
+    transition: color .25s ease;
+    column-gap: 48px;
+    margin: 1px;
+}
+nav .menu .menu-button {
+    color: aquamarine;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255,0.08);
+    padding: 8px 24px;
+    border-radius: 56px;
+    /*butonun dikdörtgen olan kenarlarına kavis verir*/
+    transition: color .25s ease;
+}
+nav .menu .menu-button:hover {
+    background-color: darkblue;
+    color: white;
+   /*butonun dikdörtgen olan kenarlarına kavis verir*/
+}
+.menu ul{
+    column-gap: 20px;
+}
