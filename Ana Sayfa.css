@@ -164,3 +164,23 @@ nav .menu .menu-button:hover {
     text-decoration: none;
     color: red;
 }
+
+.container2 p{
+    margin-left: 450px;
+    color: white;
+}
+
+.container3 p{
+    margin-left: 450px;
+    color: white;
+}
+.container4 p{
+    margin-left: 450px;
+    color: white;
+}
+
+.telif{
+    margin: auto;
+    color: white;
+    padding: auto;
+}

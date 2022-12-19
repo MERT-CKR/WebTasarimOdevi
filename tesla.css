@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(science.jpg) ;
+    /*background-image: url(science.jpg);*/
+    background-color: rgb(255, 250, 250);
 }
 
 /*navbar*/
@@ -25,6 +26,7 @@ header nav .Home a {
     text-emphasis: none;
     font-weight: 700;
     font-size: 20px;
+    margin-left: 10px;
 }
 
 header nav .Home a:hover {
@@ -83,4 +85,31 @@ nav .menu .menu-button:hover {
 }
 .menu ul{
     column-gap: 20px;
+}
+/*navbar bitiş*/
+
+.paragraf{
+    background-color:rgba(255, 255, 255, 0.952);
+    color: rgb(0, 0, 0);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    height: auto;
+    border: solid;
+    border-radius: 20px;
+
+}
+
+.paragraf p{
+    margin: 20px;
+}
+.resim1{
+    margin: 20px;
+    
+}
+.paragraf b{
+    margin: 20px;
+}
+.kalin{
+    font-weight: bold;
 }
