@@ -178,9 +178,16 @@ nav .menu .menu-button:hover {
     margin-left: 450px;
     color: white;
 }
-
-.telif{
-    margin: auto;
+.liste{
+    list-style: none;
     color: white;
-    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left:10px ;
+    background-color: black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    align-items: center;
+    
 }
