@@ -144,10 +144,12 @@ nav .menu .menu-button {
     border-radius: 56px;
     /*butonun dikdörtgen olan kenarlarına kavis verir*/
     transition: color .25s ease;
+    /*margin-left: 10px;*/
 }
 nav .menu .menu-button:hover {
     background-color: darkblue;
     color: white;
+    
    /*butonun dikdörtgen olan kenarlarına kavis verir*/
 }
 .menu ul{

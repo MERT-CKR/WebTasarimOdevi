@@ -22,11 +22,11 @@ a{
 }
 
 .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 header{
-    height: 100px;
+    height: 50px;
     border-bottom: 2px solid darkblue;
 }
 /*Header start*/
@@ -45,6 +45,8 @@ header nav .Home a {
     text-emphasis: none;
     font-weight: 700;
     font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 header nav .Home a:hover {
@@ -101,21 +103,35 @@ nav .menu .menu-button:hover {
 .menu ul{
     column-gap: 20px;
 }
-/*içerik*/
 
-section a {
-    text-align: center;
+
+
+.paragraf{
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    height: auto;
+    border: solid;
+    border-color: white;
+    border-radius: 20px;
+
+}
+
+.paragraf p{
+    margin: 20px;
+}
+
+.resim1{
+    margin: 20px;
+    
+}
+
+.kalin{
+    font-weight: bold;
+}
+
+.about a{
     text-decoration: none;
-    justify-content: center;
-    margin-top: 48px;
-    column-gap: 16px;
-    color: brown;
 }
-
-a.active
-{
-    background-color: aqua;
-}
-
-
-/*içerik*/
