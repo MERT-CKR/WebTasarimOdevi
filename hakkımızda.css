@@ -23,10 +23,22 @@ a{
 
 .container{
     width: 100%;
-    margin: auto;
+
 }
+
+.container h1{
+    width: 100%;
+    margin-top: 2px;
+    
+}
+
 header{
     height: 50px;
+    border-bottom: 2px solid darkblue;
+}
+/*navbar*/
+header{
+    height: 60px;
     border-bottom: 2px solid darkblue;
 }
 /*Header start*/
@@ -36,6 +48,7 @@ header nav{
     /*birbirinden olabildiğince uzaklaştır*/
     align-items: center;
     /* dikeyde aynı hizada*/
+    padding: 15px;
     
 }
 
@@ -45,8 +58,7 @@ header nav .Home a {
     text-emphasis: none;
     font-weight: 700;
     font-size: 20px;
-    margin: 10px;
-    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 header nav .Home a:hover {
@@ -79,12 +91,15 @@ nav .logo a:hover {
 nav ul a:hover{
     color: red;
 }
-
+nav{
+    background-color:rgba(0, 0, 0, 0.692);
+}
 nav .menu{
     display: flex;
     align-items: center;
     transition: color .25s ease;
     column-gap: 48px;
+    margin: 1px;
 }
 nav .menu .menu-button {
     color: aquamarine;
@@ -105,13 +120,11 @@ nav .menu .menu-button:hover {
 }
 
 
-
 .paragraf{
     background-color:rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 50px;
     height: auto;
     border: solid;
     border-color: white;
