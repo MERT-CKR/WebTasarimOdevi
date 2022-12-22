@@ -1,11 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap');
-body{
-    font-family: 'Poppins', sans-serif;
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: darkgray;
+    background-size: cover;
+}
+.Home{
+    text-decoration: none;
+}
+
+
+a{
+    color: white;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.container h1{
+    width: 100%;
+    margin-top: 2px;
+    
+}
+
+header{
+    height: 50px;
+    border-bottom: 2px solid darkblue;
+}
 /*navbar*/
 header{
-    height: 55px;
+    height: 60px;
     border-bottom: 2px solid darkblue;
 }
 /*Header start*/
@@ -15,9 +48,10 @@ header nav{
     /*birbirinden olabildiğince uzaklaştır*/
     align-items: center;
     /* dikeyde aynı hizada*/
-    margin-top: -5px;
+    padding: 15px;
     
 }
+
 header nav .Home a {
     text-decoration: none;
     color: white;
@@ -25,8 +59,6 @@ header nav .Home a {
     font-weight: 700;
     font-size: 20px;
     margin-left: 10px;
-    margin: 10px;
-    margin-bottom: 20px;
 }
 
 header nav .Home a:hover {
@@ -60,7 +92,7 @@ nav ul a:hover{
     color: red;
 }
 nav{
-    background-color:rgba(0, 0, 0, 0.767);
+    background-color:rgba(0, 0, 0, 0.692);
 }
 nav .menu{
     display: flex;
@@ -68,7 +100,6 @@ nav .menu{
     transition: color .25s ease;
     column-gap: 48px;
     margin: 1px;
-    margin-right: 7px;
 }
 nav .menu .menu-button {
     color: aquamarine;
@@ -82,28 +113,35 @@ nav .menu .menu-button {
 nav .menu .menu-button:hover {
     background-color: darkblue;
     color: white;
+   /*butonun dikdörtgen olan kenarlarına kavis verir*/
 }
 .menu ul{
     column-gap: 20px;
 }
-.sosyal{
-    background-color:rgb(255, 255, 255, 0);
+
+
+.paragraf{
+    background-color:rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: auto;
+    border: solid;
     border-color: white;
     border-radius: 20px;
-    background-position: center;
-    margin-left: 350px;
-    margin-right: 150px;
-    /*margin-top: 50px;*/
-    height: auto;
 
 }
 
-.sosyal li{
-    color: white;
-    align-items: center;
-    float: left;
-    margin-left: 50 px;
-    margin-right: 50 px;
-   
+.paragraf p{
+    margin: 20px;
+  
+}
+
+.paragraf a{
+    text-decoration: none;
+}
+
+.paragraf a:hover{
+    text-decoration: none;
+    color:red;
 }
