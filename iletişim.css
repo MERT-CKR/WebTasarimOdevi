@@ -5,7 +5,7 @@ body{
 
 /*navbar*/
 header{
-    height: 55px;
+    height: 61px;
     border-bottom: 2px solid darkblue;
 }
 /*Header start*/
@@ -15,7 +15,7 @@ header nav{
     /*birbirinden olabildiğince uzaklaştır*/
     align-items: center;
     /* dikeyde aynı hizada*/
-    margin-top: -5px;
+    margin-top: -7px;
     
 }
 header nav .Home a {
@@ -92,10 +92,10 @@ nav .menu .menu-button:hover {
     border-color: white;
     border-radius: 20px;
     background-position: center;
-    margin-left: 350px;
+    margin-left: 325px;
     margin-right: 150px;
-    /*margin-top: 50px;*/
-    height: auto;
+    margin-top: 250px;
+ 
 
 }
 
@@ -106,4 +106,8 @@ nav .menu .menu-button:hover {
     margin-left: 50 px;
     margin-right: 50 px;
    
+}
+.sosyal .whatsapp{
+margin-left: 50px;
+margin-right: 50px;
 }
